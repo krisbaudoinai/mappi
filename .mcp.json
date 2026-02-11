@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "n8n-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supergateway",
+        "--streamableHttp",
+        "https://n8n.acquisitie.ai/mcp-server/http",
+        "--header",
+        "authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkMzdlNWU0NS0zN2VlLTQxYzAtYWM4Ny0zMjVhMjI0ZTAwNGUiLCJpc3MiOiJuOG4iLCJhdWQiOiJtY3Atc2VydmVyLWFwaSIsImp0aSI6ImQzNDU2ZTg3LTAyZWQtNDUxZi04M2QzLTUzYzlhMzMyYTUyMiIsImlhdCI6MTc3MDgzODE3NX0.UZDmj-c9wcxFOqD1YngnNChqSOrx_0UiKIcVrjMcJi8"
+      ]
+    }
+  }
+}
